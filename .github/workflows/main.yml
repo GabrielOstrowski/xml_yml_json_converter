@@ -27,9 +27,10 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        with:
-          name: my-artifact
-          path: xml_yml_json_converter/
+        run:
+          with:
+            name: my-artifact
+            path: xml_yml_json_converter/
           
           
   
