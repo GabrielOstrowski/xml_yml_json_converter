@@ -29,7 +29,7 @@ jobs:
       - name: Run a one-line script
         run:
           with:
-            name: my-artifact
+            name: exec.py
             path: xml_yml_json_converter/
           
           
